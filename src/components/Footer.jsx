@@ -4,7 +4,7 @@ import logo2 from "../assets/logo-2.png";
 const Footer = () => {
   return (
     <div className='footer w-[83%]'>
-      <div className="footer-upper w-full h-25 flex items-center justify-between">
+      <div className="footer-upper w-full h-[100.03px] flex items-center justify-between">
         <img className="h-[65%]" src={logo2} alt="company logo" />
         <div className="pages display flex justify-center gap-11 items-center">
             <a href="#" className="font-semibold">For designers</a>
@@ -25,7 +25,7 @@ const Footer = () => {
 
         </div>
       </div>
-      <div className="footer-bottom w-full h-25 text-zinc-600 flex justify-between items-center text-sm">
+      <div className="footer-bottom w-full h-[100.03px] text-zinc-600 flex justify-between items-center text-sm">
         <div className="footer-bottom-first flex gap-4">
             <p>© 2025 Dribbble</p>
             <a href="#">Terms</a>

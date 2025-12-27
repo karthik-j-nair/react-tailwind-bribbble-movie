@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="hero w-[70%] pt-18 font-semibold text-2xl">
       <h1>Movie Streaming Platform Website - Next-Gen Entertainment 🎬🍿</h1>
 
-      <div className="work-with-us w-full h-24 flex items-center justify-between sticky top-25 z-10 bg-white">
+      <div className="work-with-us w-full h-[99.05px] flex items-center justify-between sticky top-25 z-10 bg-white">
         <div className="part1 h-full flex gap-2 items-center">
           <img
             src={logo3}
