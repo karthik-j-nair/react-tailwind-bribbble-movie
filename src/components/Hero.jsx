@@ -1,3 +1,5 @@
+import logo3 from "../assets/logo-3.webp";
+
 const Hero = () => {
   return (
     <div className="hero w-[70%] pt-18 font-semibold text-2xl">
@@ -6,7 +8,7 @@ const Hero = () => {
       <div className="work-with-us w-full h-24 flex items-center justify-between sticky top-25 z-10 bg-white">
         <div className="part1 h-full flex gap-2 items-center">
           <img
-            src="./src/assets/logo-3.webp"
+            src={logo3}
             alt="client logo"
             className="h-[50%] cursor-pointer"
           />
