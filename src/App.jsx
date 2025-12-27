@@ -1,6 +1,8 @@
 import About from "./components/About";
+import Footer from "./components/Footer";
 import GetInTouch from "./components/GetInTouch";
 import Hero from "./components/Hero";
+import MoreByUs from "./components/MoreByUs";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
         <Hero />
         <About />
         <GetInTouch />
+        <MoreByUs />
+        <Footer />
       </div>
     </div>
   );

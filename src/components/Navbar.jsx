@@ -1,14 +1,14 @@
 const Navbar = () => {
   return (
-    <div className="navbar fixed z-20 flex justify-between h-25 w-full px-9 bg-white">
+    <div className="navbar fixed z-20 flex justify-between h-25 w-full px-10 bg-white">
       <div className="nav-first h-full flex items-center gap-10">
         <img
-          className="h-[53%]"
+          className="h-[52%]"
           src="./src/assets/logo-2.png"
           alt="company logo"
         />
 
-        <div className="search flex items-center bg-zinc-100 hover:bg-white pr-2 gap-4 rounded-[40px] border-3 border-transparent hover:border-3 hover:border-pink-200">
+        <div className="search flex items-center bg-zinc-100 hover:bg-white pr-2 gap-4 rounded-[55px] border-3 border-transparent hover:border-3 hover:border-pink-200 transition-all duration-300 delay-100 ease-in-out">
           <input
             type="text"
             placeholder="What are you looking for?"
